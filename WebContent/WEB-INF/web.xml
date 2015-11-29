@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="webID" version="2.4" 
+    xmlns="http://java.sun.com/xml/ns/j2ee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+    http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <servlet-name>ShotOfMovies</servlet-name>
+    <servlet-class>com.src.main.servlet.ShotOfMovies</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShotOfMovies</servlet-name>
+    <url-pattern>/ShotOfMovies</url-pattern>
+  </servlet-mapping>
+  
+   <welcome-file-list>
+    <welcome-file>display.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
